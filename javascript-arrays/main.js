@@ -24,6 +24,7 @@ console.log(
     ', ' +
     colorsMexico[1] +
     ', ' +
+    ' and ' +
     colorsMexico[2] +
     '.'
 );
