@@ -8,6 +8,7 @@ After completing this exercise, you should be able to discuss or answer the foll
   In contrast, objects are used to store keyed collections of various data and more complex entities. In JavaScript, objects penetrate almost every aspect of the language.
 - What are object properties?
   Object properties are the characteristics or attributes associated with an object in JavaScript. They define the state, behavior, and characteristics of the object and consist of key-value pairs.
+  variables with an object
 - Describe object literal notation.
   Object literal notation allows you to define multiple properties and their values within a single expression, making it a convenient way to create objects on the fly. It is commonly used when you need to create simple objects with static properties and methods without the need for a complex class structure.
   example:
