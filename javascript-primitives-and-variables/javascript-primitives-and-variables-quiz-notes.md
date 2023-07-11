@@ -6,7 +6,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 
 - What is the purpose of variables?
 
-A variable is a “named storage” for data. We can use variables to store goodies, visitors, and other data.
+A variable is a “named storage” for data. We can use variables to store data.
 
 - How do you **declare** a variable?
 
@@ -54,12 +54,16 @@ the = operator is an assignment operator and used to assign a value or a variabl
 - How do you update the value of a variable?
 
 you just change the variable name
+example:
+let never;
+never = julie;
 
 - What is the difference between `null` and `undefined`?
 
 Null is a value that represents intentional absence of any object value and undefined is a value that indicates the absense of a defined value. Undefined is typically used whe a variable is decalred but has not been assigned a value.
 
 - Why is it a good habit to include "labels" when you log values to the browser console?
+
   To stay organized with the code
 
 - Give five examples of JavaScript primitives.
