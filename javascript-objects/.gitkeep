@@ -1,0 +1,9 @@
+let student = {
+  firstName: "Julie" ,
+  lastName: "Luangpraxay"
+  age: 27;
+}
+
+student.firstName = true;
+
+console.log("value of fullName:" ,fullName);
