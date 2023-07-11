@@ -15,7 +15,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 - What number represents the first index of an array?
   arrays always start at index of [0]
 - What is the `length` property of an array?
-  the last index of an array
+  total count of elements within an array
 - How do you calculate the last index of an array?
   array.length - 1
 
