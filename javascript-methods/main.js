@@ -39,6 +39,6 @@ const fullName = 'Julie Luangpraxay';
 const firstAndLastName = fullName.split(' ');
 console.log(firstAndLastName);
 
-const firstName = 'Julie';
+const firstName = firstAndLastName[0];
 const sayMyName = firstName.toUpperCase();
 console.log('sayMyName:', sayMyName);
