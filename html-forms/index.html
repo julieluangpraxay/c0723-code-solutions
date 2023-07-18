@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Forms</title>
+  </head>
+
+  <body>
+    <h1>Coding Form!</h1>
+    <form>
+      <!-- email -->
+      <label for="mail">
+        <span>Email </span>
+        <br />
+        <span aria-label="required"></span>
+      </label>
+      <input type="email" id="mail" name="usermail" required />
+      <!-- drop down box-->
+      <br />
+      <label for="answer-select">Why is coding cool?</label>
+      <br />
+      <select name="code" id="answer-select">
+        <option value="select">Select an option</option>
+        <option value="interesting">Because it's interesting</option>
+        <option value="fun">Because it's fun</option>
+        <option value="powerful">Because it's powerful</option>
+      </select>
+
+      <!-- favorite laguages (choose one) -->
+      <p></p>
+      <section class="languages">
+        <span>Favorite Language (choose one) </span>
+        <br />
+        <br />
+        <input type="radio" name="html" id="html" value="html" />
+        <label for="html">HTML</label>
+        <input type="radio" name="css" id="css" value="css" />
+        <label for="css">CSS</label>
+        <input
+          type="radio"
+          name="javascript"
+          id="javascript"
+          value="javascript" />
+        <label for="javacript">JavaScript</label>
+      </section>
+      <!--Question for sign up-->
+      <p>Would you like to sign up for more information?</p>
+      <!--check box-->
+      <input
+        type="checkbox"
+        id="checkboxId"
+        name="checkboxName"
+        value="checkboxValue" />
+      <label for="checkboxId">Sign me up!</label>
+      <!-- text box for comments-->
+      <section class="extra-info">
+        <label for="extra">Comments</label>
+        <br />
+        <textarea id="extra" name="extra" rows="10" cols="30"></textarea>
+        <br />
+        <!-- submit button-->
+        <button>Submit</button>
+      </section>
+    </form>
+  </body>
+</html>
