@@ -9,7 +9,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 - Give five examples of form control elements.
 <form> <legend> <textarea> <label> <button>
 - Give three examples of `type` attribute values for HTML `<input>` elements.
-  value, button, checkbox
+  email, radio, checkbox
 - Is an HTML `<input>` element a block element or an inline element?
   An input element is inline-block by default
 
