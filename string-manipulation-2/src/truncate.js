@@ -1,4 +1,4 @@
 /* exported truncate */
 function truncate(length, string) {
-  return string.slice(8) + '...';
+  return string.slice(0, length) + '...';
 }
