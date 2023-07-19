@@ -1,0 +1,32 @@
+.button {
+  width: 12em;
+  height: 3rem;
+  background-color: white;
+  border: 0.5px solid black;
+  color: black;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+}
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 900;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: #d2d2d2;
+  font-weight: lighter;
+}
+
+tr.top {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
