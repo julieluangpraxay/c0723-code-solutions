@@ -5,7 +5,7 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - Name three different types of values you can use to specify colors in CSS.
-  The rgb color type, color keyword, and hex value color code.
+  The rgb color type, color keyword, and hex value color code!
 
 ## Notes
 
