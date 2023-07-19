@@ -1,7 +1,7 @@
 button.language {
   font-size: 24px;
   background-color: lightgray;
-  margin: 12px;
+  margin: 12px; /* fixed this code */
   padding: 6px 16px; /* sets padding for top and bottom to 6px and left and right to 16px */
   border-radius: 6px;
 }
