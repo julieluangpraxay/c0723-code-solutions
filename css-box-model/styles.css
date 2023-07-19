@@ -1,0 +1,11 @@
+button.language {
+  font-size: 24px;
+  background-color: lightgray;
+
+  /* sets margin for top, right, bottom and left */
+  margin: 6px 16px 6px 12px;
+
+  /* sets padding for top and bottom to 6px and left and right to 16px */
+  padding: 6px 16px;
+  border-radius: 6px;
+}
