@@ -1,6 +1,5 @@
 body {
   display: flex;
-  justify-content: center;
   align-items: center;
   height: 100vh;
   margin: 0;
@@ -56,12 +55,7 @@ label {
   height: 2rem;
 }
 
-.container {
-  position: relative;
-}
-
 #button {
-  text-align: center;
   border-radius: 5rem;
   width: 5rem;
   height: 2rem;
