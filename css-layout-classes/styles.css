@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.column-third {
+  flex: 1; /* Use flex: 1 to allow columns to occupy equal space */
+}
+
+.character {
+  width: 100%;
+}
+
+.column-full {
+  display: flex;
+}
+
+.column-fourth {
+  flex-wrap: wrap;
+  flex: 1;
+  align-items: center;
+}
+
+.column-fourth .character {
+  align-items: center;
+}
+
+.column-two-thirds {
+  flex: 2;
+}
+
+.column-two-thirds .character {
+  width: 100%;
+  margin-left: auto;
+  display: block;
+}
