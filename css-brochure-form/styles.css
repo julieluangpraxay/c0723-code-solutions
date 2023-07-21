@@ -27,7 +27,7 @@ form {
 
 label {
   font-size: 10px;
-  text-align: left;
+  margin-left: 0.5rem;
   font-family: 'Brandon Grotesque', sans-serif;
   font-style: normal;
   color: black;
@@ -63,4 +63,9 @@ label {
   background-color: #ec5d57;
   color: white;
   border: none;
+}
+
+.submit {
+  text-align: right;
+  margin-top: 0.5rem;
 }
