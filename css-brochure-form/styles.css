@@ -34,25 +34,29 @@ label {
   font-weight: bold;
 }
 
-.engineers {
+.engineer {
+  display: block;
   min-width: 20rem;
   min-height: 2rem;
   background-color: #f3f3f3;
 }
 
-#location {
+#text {
+  display: block;
   width: 20rem;
-  height: 2rem;
+  height: 2.2rem;
 }
 
 #name {
+  display: block;
   width: 20rem;
-  height: 2rem;
+  height: 2.2rem;
 }
 
 #email {
+  display: block;
   width: 20rem;
-  height: 2rem;
+  height: 2.2rem;
 }
 
 #button {
