@@ -1,6 +1,6 @@
 .container {
-  display: flex;
-  flex-wrap: wrap;
+  max-width: 100%;
+  margin: auto;
 }
 
 .row {
@@ -10,29 +10,25 @@
 }
 
 .column-third {
-  flex: 1; /* Use flex: 1 to allow columns to occupy equal space */
+  flex-basis: calc(100% / 3);
 }
 
 .character {
   width: 100%;
+  height: auto;
 }
 
 .column-full {
-  display: flex;
+  flex-basis: 100%;
 }
 
 .column-fourth {
-  flex-wrap: wrap;
-  flex: 1;
-  align-items: center;
-}
-
-.column-fourth .character {
-  align-items: center;
+  flex-basis: calc(100% / 4);
+  display: block;
 }
 
 .column-two-thirds {
-  flex: 2;
+  flex-basis: calc(200% / 3);
 }
 
 .column-two-thirds .character {
