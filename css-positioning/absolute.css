@@ -4,8 +4,6 @@
   background-image: url('images/one-does-not-simply.jpg');
   background-size: cover;
   position: relative;
-
-  /* your code here */
 }
 
 .meme > img {
@@ -17,8 +15,6 @@
   position: absolute;
   left: 240px;
   top: 40px;
-
-  /* your code here */
 }
 
 .joke {
@@ -37,4 +33,5 @@
   background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
   height: 100%;
   width: 100%;
+  position: absolute;
 }
