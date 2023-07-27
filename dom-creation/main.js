@@ -66,53 +66,28 @@ const pokedex = [
   },
 ];
 
-// function renderPokemon(pokemon) {
-//   const columnThirdDiv = document.createElement('div'); // create the outer most div with class "column-third"
-
-//   columnThirdDiv.className = 'column-third';
-
-//   const pokemonCardDiv = document.createElement('div');
-//   pokemonCardDiv.className = 'pokemon-card';
-
-//   const pikachuImg = document.createElement('img');
-//   pikachuImg.src= 'images/pikachu.png';
-
-//   const pokemonCardText = document.createElementNS('div');
-//   pokemonCardText.className = ''
-
-//   columnThirdDiv.appendChild(pokemonCardDiv);
-
-// }
-
 function renderPokemon(pokemon) {
-  // Create the outer "column-third" div
+  // outer "column-third" div
   const columnThirdDiv = document.createElement('div');
   columnThirdDiv.className = 'column-third';
 
-  // Create the inner "pokemon-card" div
   const pokemonCardDiv = document.createElement('div');
   pokemonCardDiv.className = 'pokemon-card';
 
-  // Create the "img" element and set its "src" attribute
   const imgElement = document.createElement('img');
   imgElement.src = pokemon.imageUrl;
 
-  // Append the "img" element to the "pokemon-card" div
   pokemonCardDiv.appendChild(imgElement);
 
-  // Create the "pokemon-card-text" div
   const pokemonCardTextDiv = document.createElement('div');
   pokemonCardTextDiv.className = 'pokemon-card-text';
 
-  // Create and set the "h2" element for the Pokemon name
   const h2Element = document.createElement('h2');
   h2Element.textContent = pokemon.name;
 
-  // Create and set the "h3" element for the Pokemon number
   const h3Element = document.createElement('h3');
   h3Element.textContent = pokemon.number;
 
-  // Create and set the "p" element for the Pokemon description
   const pElement = document.createElement('p');
   pElement.textContent = pokemon.description;
 
@@ -130,11 +105,9 @@ function renderPokemon(pokemon) {
   // Return the outer div
   return columnThirdDiv;
 }
-
-// Function to run when the DOM is fully loaded
-document.addEventListener('DOMContentLoaded', function () {
-  // Get the container div and append the DOM tree for Pikachu
-  const container = document.querySelector('#container');
-  container.appendChild(renderPokemon(pokedex.pikachu));
-});
-console.log(pokedex);
+// the function can only render one pokemon at a time so it needs a loop to automate the process
+const $row = document.querySelector('.row');
+for (let i = 0; i < pokedex.length; i++) {
+  const $pokemon = renderPokemon(pokedex[i]);
+  $row.appendChild($pokemon);
+}
