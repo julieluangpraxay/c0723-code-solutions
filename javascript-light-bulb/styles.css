@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  height: 100vh; /* Make the body full viewport height */
+  margin: 0; /* Remove default margin */
+  background: #fef9f1;
+}
+
+body.light-mode {
+  background: #fef9f1;
+}
+
+body.dark-mode {
+  background: #111;
+}
+
+.light-mode {
+  background: #faea84;
+  align-items: center;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  box-shadow: 0 0 15px #faea84;
+}
+
+.dark-mode {
+  background: #222325;
+  box-shadow: 0 0 15px #252525;
+}
