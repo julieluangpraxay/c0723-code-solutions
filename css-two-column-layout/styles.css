@@ -49,11 +49,6 @@ p {
   flex-basis: calc(100% / 3);
 }
 
-.column-two-third {
-  align-items: flex-start;
-  flex-basis: calc(200% / 3);
-}
-
 .column-half {
   flex-basis: calc(100% / 2);
 }
