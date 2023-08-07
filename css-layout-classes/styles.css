@@ -1,0 +1,38 @@
+.container {
+  max-width: 100%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.column-third {
+  flex-basis: calc(100% / 3);
+}
+
+.character {
+  width: 100%;
+  height: auto;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.column-fourth {
+  flex-basis: calc(100% / 4);
+  display: block;
+}
+
+.column-two-thirds {
+  flex-basis: calc(200% / 3);
+}
+
+.column-two-thirds .character {
+  width: 100%;
+  margin-left: auto;
+  display: block;
+}
