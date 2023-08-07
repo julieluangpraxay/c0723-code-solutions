@@ -10,6 +10,8 @@ function handleSubmit(event) {
     email: $emailValue,
     message: $messageValue,
   };
+  // reset the form after the info has been submitted in the function
+  $contactForm.reset();
   // Log form data to the console
   console.log('messageData:', messageData);
 }

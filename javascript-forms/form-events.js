@@ -27,5 +27,13 @@ console.log('textarea event:', $textareaInput.value);
 // Add three event listeners to each of the form control elements, one for each of the event types you have written event handler functions for in the steps above:
 
 $nameInput.addEventListener('focus', handleFocus);
+$nameInput.addEventListener('blur', handleBlur);
+$nameInput.addEventListener('input', handleInput);
+
 $emailInput.addEventListener('blur', handleBlur);
+$emailInput.addEventListener('focus', handleFocus);
+$emailInput.addEventListener('input', handleInput);
+
 $textareaInput.addEventListener('input', handleInput);
+$textareaInput.addEventListener('blur', handleBlur);
+$textareaInput.addEventListener('focus', handleFocus);
