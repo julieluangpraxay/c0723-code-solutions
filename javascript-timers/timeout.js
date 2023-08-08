@@ -1,7 +1,8 @@
 // create a function to change the html text in js
+const $timeout = document.querySelector('.message');
+
 function update() {
   // update the heading by query selecting the h1 class 'message'
-  const $timeout = document.querySelector('.message');
   // use textcontent to get the element's text content and change it to 'hello there'
   $timeout.textContent = 'Hello There';
 }
