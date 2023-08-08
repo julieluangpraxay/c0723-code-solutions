@@ -36,6 +36,7 @@ HTTP/1.1 is the HTTP version.
 OK is the status phrase giving more details about the success.
 
 - What are HTTP headers?
+  HTTP headers are metadata that provide instructions and context for communication between web clients and servers, conveying information about the request or response.
   HTTP headers from a request follow the same basic structure of an HTTP header: a case-insensitive string followed by a colon (':') and a value whose structure depends upon the header. The whole header, including the value, consists of one single line, which can be quite long.
 
 - Where would you go if you wanted to learn more about a specific HTTP Header?
