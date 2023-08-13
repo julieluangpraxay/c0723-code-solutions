@@ -20,10 +20,10 @@ $container.addEventListener('click', function (event) {
     for (let i = 0; i < $view.length; i++) {
       // loops through to check if all the data view is a data view
       if ($data === $view[i].getAttribute('data-view')) {
-        // runs if data=voew should be shown
+        // runs if data-view should be shown
         $view[i].className = 'view'; // makes the data viewable
       } else {
-        $view[i].className = 'hidden'; // changes the class name so that its hidden on the page
+        $view[i].className = 'view hidden'; // changes the class name so that its hidden on the page
       }
     }
   }
