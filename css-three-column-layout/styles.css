@@ -8,8 +8,8 @@ h1 {
   text-align: center;
   color: rgb(255, 255, 255);
   width: 100%;
-  padding-top: 50px;
-  padding-bottom: 25px;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 body {
@@ -23,15 +23,15 @@ p {
   color: rgb(255, 255, 255);
   text-align: center;
   display: block;
-  margin-bottom: 10px;
-  padding-right: 45px;
-  padding-left: 45px;
-  padding-top: 10px;
 }
 
 p {
   font-size: 20px;
   color: #ced7dc;
+  margin-top: -0.2rem;
+  margin-bottom: -0.02rem;
+  padding-right: 5rem;
+  padding-left: 5rem;
 }
 
 .column-third {
@@ -44,7 +44,6 @@ p {
 
 .container {
   max-width: 100%;
-  margin: auto;
   display: block;
 }
 
@@ -68,7 +67,7 @@ p {
 }
 
 img {
-  width: 50%; /* Adjust the width to fit the image inside the circular container */
+  width: 55%; /* Adjust the width to fit the image inside the circular container */
   height: auto; /* Allow the image to scale with its aspect ratio */
   object-fit: contain; /* Preserve the aspect ratio and fit inside the circular container */
 }
