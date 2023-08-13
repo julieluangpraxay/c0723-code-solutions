@@ -44,8 +44,6 @@ section {
 
 .card > img {
   width: 100%;
-
-  /* transition: transform 0.5s; */
 }
 
 .custom-button:hover {
