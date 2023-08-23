@@ -11,16 +11,10 @@ After completing this exercise, you should be able to discuss or answer the foll
   A package is a self-contained collection of code and resources that offers specific functionality and can be easily reused in software development.
 
 - What are some other popular package managers?
-  Python: pip (Python Package Index)
-  Ruby: RubyGems
-  Java: Maven, Gradle
-  PHP: Composer
-  C/C++: Conan, vcpkg
-  R: CRAN (Comprehensive R Archive Network)
-  Swift: Swift Package Manager
+  NPM, YARN, PNPM
 
 - How can you create a `package.json` with `npm`?
-  To create a package.json with npm, run npm init in your project directory and follow the prompts to provide project details. Use npm init -y for a quick setup with default values.
+  Run npm init in your project directory and follow the prompts to provide project details. Use npm init -y for a quick setup with default values.
 
 - What is a dependency and how do you add one to a package?
   A dependency is an external package or library that your project relies on. To add a dependency to a package, you use the command npm install <package-name>.
